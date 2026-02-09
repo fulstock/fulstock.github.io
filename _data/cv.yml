@@ -57,13 +57,13 @@ cv:
         date: 2024
 
     Languages:
-      - name: English
+      - label: English
         details: "C1"
 
-      - name: Russian / Русский
+      - label: Russian / Русский
         details: "Native"
 
-      - name: Japanese / 日本語
+      - label: Japanese / 日本語
         details: "B1 level / JLPT N4"
 
     Education:

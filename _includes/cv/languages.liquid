@@ -11,7 +11,7 @@
         <i class="{{ entry.icon }}"></i>
       {% endif %}
       {% capture lang_name %}
-        {% if entry.name %}{{ entry.name }}{% elsif entry.language %}{{ entry.language }}{% endif %}
+        {% if entry.label %}{{ entry.label }}{% elsif entry.name %}{{ entry.name }}{% elsif entry.language %}{{ entry.language }}{% endif %}
       {% endcapture %}
       {% capture fluency %}
         {% if entry.details %}{{ entry.details }}{% elsif entry.summary %}{{ entry.summary }}{% elsif entry.fluency %}{{ entry.fluency }}{% endif %}
