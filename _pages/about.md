@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>Lomonosov Moscow State University</p>
     <p>Department of Algorithmic Languages</p>
+    <p><a href="mailto:fulstocky@gmail.com">fulstocky@gmail.com</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
