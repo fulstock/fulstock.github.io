@@ -88,10 +88,18 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Render CV 📄
+        run: |
+          pip3 install -r requirements.txt
+          cv_file=$(find _data -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))
+          settings=$(find assets/rendercv -maxdepth 1 -type f \( -name "settings.yaml" -o -name "settings.yml" \))
+          if [ -n "$cv_file" ] && [ -n "$settings" ]; then
+            rendercv render $cv_file --settings $settings
+            rm -f assets/rendercv/rendercv_output/*.typ
+          fi
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹

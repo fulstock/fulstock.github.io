@@ -56,7 +56,3 @@ jobs:
           git add -A
           git commit -m "chore: render the latest CV" || echo "No changes to commit"
           git push
-      - name: Trigger deploy workflow
-        run: gh workflow run deploy.yml
-        env:
-          GH_TOKEN: ${{ github.token }}
