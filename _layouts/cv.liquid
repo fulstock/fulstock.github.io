@@ -60,15 +60,23 @@ layout: default
         {% comment %} RenderCV format {% endcomment %}
         {% assign cv = site.data.cv.cv %}
 
+        {% comment %} Fallback to _config.yml values when cv.yml fields are absent {% endcomment %}
+        {% assign cv_name = cv.name | default: null %}
+        {% unless cv_name %}
+          {% assign cv_name = site.first_name | append: ' ' | append: site.last_name %}
+        {% endunless %}
+        {% assign cv_email = cv.email | default: site.email %}
+        {% assign cv_summary = cv.summary | default: site.description %}
+
         <!-- Header/Contact Information -->
-        {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
+        {% if cv_name or cv.label or cv.location or cv_email or cv.phone or cv.website %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
             <table class="table table-cv table-sm table-borderless">
-              {% if cv.name %}
+              {% if cv_name %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.name }}</td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv_name }}</td>
                 </tr>
               {% endif %}
               {% if cv.label %}
@@ -77,10 +85,10 @@ layout: default
                   <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
                 </tr>
               {% endif %}
-              {% if cv.email %}
+              {% if cv_email %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.email }}</td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv_email }}</td>
                 </tr>
               {% endif %}
               {% if cv.phone %}
@@ -113,10 +121,10 @@ layout: default
         {% endif %}
 
         <!-- Summary -->
-        {% if cv.summary %}
+        {% if cv_summary %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Professional Summary</h3>
-            <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            <p>{{ cv_summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
           </div>
         {% endif %}
 
