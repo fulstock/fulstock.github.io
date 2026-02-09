@@ -21,6 +21,48 @@ cv:
         - Large Language Models
 
   sections:
+
+    Conference Presentations:
+      - label: "Dialogue Evaluation 2022"
+        year: 2022
+        details: "Machine Reading Comprehension Model in RuNNE Competition (oral)"
+      - label: "Huawei workshop “ML/AI/NLP for search-engine performance improvement"
+        year: 2022
+        details: "Prompts in few-shot and cross-domain tasks of nested named entity recognition"
+      - label: "Ломоносовские чтения - 2024. Секция вычислительной математики и кибернетики"
+        year: 2024
+        details: "Предобученные языковые модели в задаче извлечения вложенных именованных сущностей (Устный)"
+      - label: "Конференция «Программирование и вычислительная математика», посвящённая 100-летнему юбилею со дня рождения Николая Павловича Трифонова"
+        year: 2025
+        details: "Извлечение именованных сущностей предметной области из неоднородного входного потока (Устный)"
+
+    Experience:
+      - company: Research Computing Center of Lomonosov Moscow State University
+        position: Research Intern
+        location: Moscow, Russia
+        start_date: 2022
+        end_date: present
+
+      - company: Ivannikov Institute for System Programming of the Russian Academy of Sciences
+        position: Research Intern
+        location: Moscow, Russia
+        start_date: 2024
+        end_date: present
+
+    Awards:
+      - award: Стипендия Московского государственного университета имени М.В.Ломоносова для молодых сотрудников, аспирантов и студентов, добившихся значительных результатов в педагогической и научно-исследовательской деятельности, на 2024 год
+      - year: 2024
+
+    Languages:
+      - name: English
+        summary: "C1"
+
+      - name: Russian / Русский
+        summary: "Native"
+
+      - name: Japanese / 日本語
+        summary: "B1 level / JLPT N4"
+
     Education:
       - institution: Lomonosov Moscow State University
         location: Moscow, Russia
@@ -54,26 +96,3 @@ cv:
         highlights:
           - "Thesis: Methods for Nested Named Entity Recognition"
           - "Advisor: Natalia Loukachevitch"
-
-    Experience:
-      - company: Research Computing Center of Lomonosov Moscow State University
-        position: Research Intern
-        location: Moscow, Russia
-        start_date: 2022
-        end_date: present
-
-      - company: Ivannikov Institute for System Programming of the Russian Academy of Sciences
-        position: Research Intern
-        location: Moscow, Russia
-        start_date: 2024
-        end_date: present
-
-    Languages:
-      - name: English
-        summary: "C1"
-
-      - name: Russian / Русский
-        summary: "Native"
-
-      - name: Japanese / 日本語
-        summary: "B1 level / JLPT N4"
