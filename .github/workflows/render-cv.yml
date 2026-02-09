@@ -6,6 +6,8 @@ on:
       - master
     paths:
       - "_data/cv.yml"
+      - "_bibliography/papers.bib"
+      - "scripts/bib_to_cv_publications.py"
       - "assets/rendercv/design.yaml"
       - "assets/rendercv/locale.yaml"
       - "assets/rendercv/settings.yaml"
@@ -25,6 +27,8 @@ jobs:
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
+      - name: Inject publications from BibTeX into cv.yml
+        run: python scripts/bib_to_cv_publications.py
       - name: RenderCV
         run: |
           cv_file=$(find _data  -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))

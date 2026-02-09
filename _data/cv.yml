@@ -2,7 +2,8 @@ cv:
   name: Igor Rozhkov
   label: Researcher
   image: ""
-
+  email: fulstocky@gmail.com
+  website: https://fulstock.github.io
   social_networks:
     - network: X
       username: fulstock_nlp
@@ -10,7 +11,8 @@ cv:
       username: fulstock
     - network: LinkedIn
       username: fulstock
-
+    - network: Google Scholar
+      username: gOreA3YAAAAJ
   Research Interests:
     - name: Natural Language Processing
       icon: fa-solid fa-tag
@@ -20,53 +22,56 @@ cv:
         - Information Extraction
         - Knowledge Graphs
         - Large Language Models
-
   sections:
     Conference Presentations:
-      - name: "Dialogue Evaluation 2022"
+      - name: Dialogue Evaluation 2022
         date: 2022
         highlights:
-          - "Machine Reading Comprehension Model in RuNNE Competition (oral)"
-      - name: "Huawei workshop 'ML/AI/NLP for search-engine performance improvement'"
+          - Machine Reading Comprehension Model in RuNNE Competition (oral)
+      - name: Huawei workshop 'ML/AI/NLP for search-engine performance improvement'
         date: 2022
         highlights:
-          - "Prompts in few-shot and cross-domain tasks of nested named entity recognition"
-      - name: "Ломоносовские чтения - 2024. Секция вычислительной математики и кибернетики"
+          - Prompts in few-shot and cross-domain tasks of nested named entity recognition
+      - name: Ломоносовские чтения - 2024. Секция вычислительной математики и кибернетики
         date: 2024
         highlights:
-          - "Предобученные языковые модели в задаче извлечения вложенных именованных сущностей (Устный)"
-      - name: "Конференция «Программирование и вычислительная математика», посвящённая 100-летнему юбилею со дня рождения Николая Павловича Трифонова"
+          - Предобученные языковые модели в задаче извлечения вложенных именованных сущностей (Устный)
+      - name: Конференция «Программирование и вычислительная математика», посвящённая 100-летнему юбилею со дня рождения Николая
+          Павловича Трифонова
         date: 2025
         highlights:
-          - "Извлечение именованных сущностей предметной области из неоднородного входного потока (Устный)"
-
+          - Извлечение именованных сущностей предметной области из неоднородного входного потока (Устный)
     Experience:
       - company: Research Computing Center of Lomonosov Moscow State University
         position: Research Intern
         location: Moscow, Russia
         start_date: 2022
         end_date: present
-
       - company: Ivannikov Institute for System Programming of the Russian Academy of Sciences
         position: Research Intern
         location: Moscow, Russia
         start_date: 2024
         end_date: present
-
     Awards:
-      - name: "Стипендия Московского государственного университета имени М.В.Ломоносова для молодых сотрудников, аспирантов и студентов, добившихся значительных результатов в педагогической и научно-исследовательской деятельности"
+      - name: Стипендия Московского государственного университета имени М.В.Ломоносова для молодых сотрудников, аспирантов и
+          студентов, добившихся значительных результатов в педагогической и научно-исследовательской деятельности
         date: 2024
-
+    Skills:
+      - name: Programming Languages
+        keywords:
+          - Python
+      - name: Tools
+        keywords:
+          - Git
+          - LaTeX
+          - Docker
     Languages:
       - label: English
-        details: "C1"
-
+        details: C1
       - label: Russian / Русский
-        details: "Native"
-
+        details: Native
       - label: Japanese / 日本語
-        details: "B1 level / JLPT N4"
-
+        details: B1 level / JLPT N4
     Education:
       - institution: Lomonosov Moscow State University
         location: Moscow, Russia
@@ -100,3 +105,86 @@ cv:
         highlights:
           - "Thesis: Methods for Nested Named Entity Recognition"
           - "Advisor: Natalia Loukachevitch"
+    Publications:
+      - title: Methods for Recognizing Nested Terms
+        authors:
+          - "***Igor Rozhkov***"
+          - Natalia Loukachevitch
+        date: 2025-05
+        doi: 10.48550/arXiv.2504.16007
+      - title: Извлечение именованных сущностей предметной области из неоднородного входного потока
+        authors:
+          - Н. В. Лукашевич
+          - "***И. С. Рожков***"
+          - Б. В. Добров
+        journal: "Программирование и вычислительная математика: сборник материалов конференции, посвященной 100-летию со  дня
+          рождения Н. П. Трифонова"
+        date: "2025"
+      - title: "NEREL: A Russian Information Extraction Dataset with Rich Annotation for Nested Entities, Relations, and Wikidata
+          Entity Links"
+        authors:
+          - Natalia Loukachevitch
+          - Ekaterina Artemova
+          - Tatiana Batura
+          - Pavel Braslavski
+          - Vladimir Ivanov
+          - Suresh Manandhar
+          - Alexander Pugachev
+          - "***Igor Rozhkov***"
+          - Artem Shelmanov
+          - Elena Tutubalina
+          - Alexey Yandutov
+        journal: Language Resources and Evaluation
+        date: 2024-06
+        doi: 10.1007/s10579-023-09674-z
+      - title: Предобученные языковые модели в задаче извлечения вложенных именованных сущностей
+        authors:
+          - Н. В. Лукашевич
+          - "***И. С. Рожков***"
+        journal: "Ломоносовские чтения-2024: научная конференция, факультет ВМК МГУ имени М.В.Ломоносова. Тезисы докладов"
+        date: "2024"
+      - title: Machine Reading Comprehension Model in Domain-Transfer Task
+        authors:
+          - "***I. S. Rozhkov***"
+          - N. V. Loukachevitch
+        journal: Lobachevskii Journal of Mathematics
+        date: 2023-08
+        doi: 10.1134/S1995080223080504
+      - title: Prompts in Few-Shot Named Entity Recognition
+        authors:
+          - "***I. S. Rozhkov***"
+          - N. V. Loukachevitch
+        journal: Pattern Recognition and Image Analysis
+        date: 2023-06
+        doi: 10.1134/S1054661823020104
+      - title: "NEREL-BIO: A Dataset of Biomedical Abstracts Annotated with Nested Named Entities"
+        authors:
+          - Natalia Loukachevitch
+          - Suresh Manandhar
+          - Elina Baral
+          - "***Igor Rozhkov***"
+          - Pavel Braslavski
+          - Vladimir Ivanov
+          - Tatiana Batura
+          - Elena Tutubalina
+        journal: Bioinformatics
+        date: "2023"
+      - title: "RuNNE-2022 Shared Task: Recognizing Nested Named Entities"
+        authors:
+          - Ekaterina Artemova
+          - Maxim Zmeev
+          - Natalia Loukachevitch
+          - "***Igor Rozhkov***"
+          - Tatiana Batura
+          - Vladimir Ivanov
+          - Elena Tutubalina
+        journal: COMPUTATIONAL LINGUISTICS AND INTELLECTUAL TECHNOLOGIES
+        date: 2022-06
+        doi: 10.28995/2075-7182-2022-21-33-41
+      - title: Machine Reading Comprehension Model in RuNNE Competition
+        authors:
+          - "***Igor Rozhkov***"
+          - Natalia Loukachevitch
+        journal: Computational Linguistics and Intellectual Technologies
+        date: 2022-06
+        doi: 10.28995/2075-7182-2022-21-488-496
