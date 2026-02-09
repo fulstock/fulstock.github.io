@@ -166,7 +166,7 @@ layout: default
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
               {% elsif section_title == 'Publications' %}
-                {% bibliography --query @*[selected=true] --template bib_cv %}
+                {% comment %} Handled separately after the sections loop {% endcomment %}
               {% elsif section_title == 'Skills' %}
                 {% assign entries = section_entries %}
                 {% include cv/skills.liquid %}
@@ -210,6 +210,15 @@ layout: default
             </div>
           </div>
         {% endfor %}
+
+        <!-- Publications (from BibTeX, independent of cv.yml) -->
+        <a class="anchor" id="publications"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Publications</h3>
+          <div>
+            {% bibliography --query @*[selected=true] --template bib_cv %}
+          </div>
+        </div>
 
       {% elsif render_jsonresume and site.data.resume %}
         {% comment %} JSONResume format {% endcomment %}
