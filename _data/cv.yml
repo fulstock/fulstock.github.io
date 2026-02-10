@@ -58,13 +58,9 @@ cv:
         date: 2024
     Skills:
       - name: Programming Languages
-        keywords:
-          - Python
+        keywords: Python
       - name: Tools
-        keywords:
-          - Git
-          - LaTeX
-          - Docker
+        keywords: "Git, LaTeX, Docker"
     Languages:
       - label: English
         details: C1

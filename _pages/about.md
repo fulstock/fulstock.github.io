@@ -14,7 +14,7 @@ profile:
     <p><a href="mailto:fulstocky@gmail.com">fulstocky@gmail.com</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # social icons moved to profile sidebar
 
 announcements:
   enabled: false # includes a list of news items

@@ -169,6 +169,33 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Social icons in profile sidebar
+.profile-social {
+  text-align: center;
+  margin-top: 0.5rem;
+
+  .contact-icons {
+    font-size: 1.25rem;
+
+    a {
+      margin: 0 0.3rem;
+
+      i::before {
+        color: var(--global-text-color);
+        transition: color 0.2s ease-in-out;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+}
+
 // Social (bottom)
 
 .social {

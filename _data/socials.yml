@@ -1,11 +1,10 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/rendercv/rendercv_output/Igor_Rozhkov_CV.pdf # path to your CV PDF file
-email: fulstocky@gmail.com # your email address
+# cv_pdf: /assets/rendercv/rendercv_output/Igor_Rozhkov_CV.pdf
+# email: fulstocky@gmail.com
 github_username: fulstock
-# inspirehep_id: 1010907 # Inspire HEP author ID
-# rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: gOreA3YAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+scholar_userid: gOreA3YAAAAJ
+x_username: fulstock_nlp
+linkedin_username: fulstock
+bluesky_url: https://bsky.app/profile/fulstock.bsky.social
