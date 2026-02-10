@@ -94,6 +94,7 @@ jobs:
           cv_file=$(find _data -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))
           settings=$(find assets/rendercv -maxdepth 1 -type f \( -name "settings.yaml" -o -name "settings.yml" \))
           if [ -n "$cv_file" ] && [ -n "$settings" ]; then
+            python scripts/bib_to_cv_publications.py
             rendercv render $cv_file --settings $settings
             rm -f assets/rendercv/rendercv_output/*.typ
           fi
