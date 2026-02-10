@@ -189,7 +189,12 @@ layout: default
 
           {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
           {% comment %} Skip Publications — rendered from BibTeX after the sections loop {% endcomment %}
-          {% if section_title == 'Experience' or section_title == 'Volunteer' or section_title == 'Publications' %}
+          {% comment %} Skip Research Interests — rendered from top-level cv field above {% endcomment %}
+          {% if section_title == 'Experience'
+            or section_title == 'Volunteer'
+            or section_title == 'Publications'
+            or section_title == 'Research Interests'
+          %}
             {% continue %}
           {% endif %}
 

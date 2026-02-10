@@ -227,20 +227,24 @@ def bib_entry_to_publication(entry: dict[str, str]) -> dict | None:
 
     Returns ``None`` if the entry lacks required data (title + year).
     """
-    raw_title = entry.get("title")
+    raw_title = entry.get("title_en") or entry.get("title")
     raw_year = entry.get("year")
     if not raw_title or not raw_year:
         return None
 
     title = _clean_latex(_strip_braces(raw_title))
 
-    # Authors
-    raw_authors = entry.get("author", "")
+    # Authors — prefer English transliteration if available
+    raw_authors = entry.get("author_en") or entry.get("author", "")
     authors = _parse_author_list(raw_authors)
     authors = _emphasise_owner(authors)
 
-    # Venue: journal > booktitle
-    venue = entry.get("journal") or entry.get("booktitle") or ""
+    # Venue: prefer _en variants, then journal > booktitle
+    venue = (
+        entry.get("journal_en") or entry.get("journal")
+        or entry.get("booktitle_en") or entry.get("booktitle")
+        or ""
+    )
     venue = _clean_latex(_strip_braces(venue))
 
     # Date
@@ -289,12 +293,24 @@ def main() -> None:
     # Read cv.yml
     cv_data = yaml.safe_load(CV_PATH.read_text(encoding="utf-8"))
 
-    # Inject publications into sections
+    # Inject publications into sections (after Education to keep desired order)
     if "cv" not in cv_data:
         print("ERROR: cv.yml missing top-level 'cv' key", file=sys.stderr)
         sys.exit(1)
     sections = cv_data["cv"].setdefault("sections", {})
-    sections["Publications"] = publications
+
+    # Remove old Publications if present, then insert after Education
+    sections.pop("Publications", None)
+    new_sections: dict = {}
+    inserted = False
+    for key, value in sections.items():
+        new_sections[key] = value
+        if key == "Education" and not inserted:
+            new_sections["Publications"] = publications
+            inserted = True
+    if not inserted:
+        new_sections["Publications"] = publications
+    cv_data["cv"]["sections"] = new_sections
 
     # Write back
     CV_PATH.write_text(
