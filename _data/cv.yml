@@ -1,27 +1,27 @@
 cv:
   name: Igor Rozhkov
   label: Researcher
-  image: ""
+  image: ''
   email: fulstocky@gmail.com
   website: https://fulstock.github.io
   social_networks:
-    - network: X
-      username: fulstock_nlp
-    - network: GitHub
-      username: fulstock
-    - network: LinkedIn
-      username: fulstock
-    - network: Google Scholar
-      username: gOreA3YAAAAJ
+  - network: X
+    username: fulstock_nlp
+  - network: GitHub
+    username: fulstock
+  - network: LinkedIn
+    username: fulstock
+  - network: Google Scholar
+    username: gOreA3YAAAAJ
   Research Interests:
-    - name: Natural Language Processing
-      icon: fa-solid fa-tag
-      keywords:
-        - Nested Named Entity Recognition
-        - Relation Extraction
-        - Information Extraction
-        - Knowledge Graphs
-        - Large Language Models
+  - name: Natural Language Processing
+    icon: fa-solid fa-tag
+    keywords:
+    - Nested Named Entity Recognition
+    - Relation Extraction
+    - Information Extraction
+    - Knowledge Graphs
+    - Large Language Models
   sections:
     Research Interests:
       - Nested Named Entity Recognition, Relation Extraction, Biomedical NLP, Domain Adaption for Information Retrieval
