@@ -1,114 +1,197 @@
 cv:
   name: Igor Rozhkov
   label: Researcher
-  image: ""
+  image: ''
   email: fulstocky@gmail.com
   website: https://fulstock.github.io
   social_networks:
-    - network: X
-      username: fulstock_nlp
-    - network: GitHub
-      username: fulstock
-    - network: LinkedIn
-      username: fulstock
-    - network: Google Scholar
-      username: gOreA3YAAAAJ
+  - network: X
+    username: fulstock_nlp
+  - network: GitHub
+    username: fulstock
+  - network: LinkedIn
+    username: fulstock
+  - network: Google Scholar
+    username: gOreA3YAAAAJ
   Research Interests:
-    - name: Natural Language Processing
-      icon: fa-solid fa-tag
-      keywords:
-        - Nested Named Entity Recognition
-        - Relation Extraction
-        - Information Extraction
-        - Knowledge Graphs
-        - Large Language Models
+  - name: Natural Language Processing
+    icon: fa-solid fa-tag
+    keywords:
+    - Nested Named Entity Recognition
+    - Relation Extraction
+    - Information Extraction
+    - Knowledge Graphs
+    - Large Language Models
   sections:
     Research Interests:
-      - Nested Named Entity Recognition, Relation Extraction, Biomedical NLP, Domain Adaption for Information Retrieval
+    - Nested Named Entity Recognition, Relation Extraction, Biomedical NLP, Domain Adaption for Information Retrieval
     Education:
-      - institution: Lomonosov Moscow State University
-        location: Moscow, Russia
-        url: https://www.msu.ru/
-        area: Computer Science, NLP
-        grade: With Honors
-        studyType: BSc in Computer Science
-        start_date: 2018
-        end_date: 2022
-        highlights:
-          - "Thesis: A Study of Methods for Automatic Nested Named Entity Recognition"
-          - "Advisor: Natalia Loukachevitch"
-      - institution: Lomonosov Moscow State University
-        location: Moscow, Russia
-        url: https://www.msu.ru/
-        area: Computer Science, NLP
-        grade: With Honors
-        studyType: MSc in Computer Science
-        start_date: 2022
-        end_date: 2024
-        highlights:
-          - "Thesis: Recognizing nested entities based on flat annotation"
-          - "Advisor: Natalia Loukachevitch"
-      - institution: Lomonosov Moscow State University
-        location: Moscow, Russia
-        url: https://www.msu.ru/
-        area: Computer Science, NLP
-        studyType: PhD in Computer Science
-        start_date: 2024
-        end_date: present
-        highlights:
-          - "Thesis: Methods for Nested Named Entity Recognition"
-          - "Advisor: Natalia Loukachevitch"
+    - institution: Lomonosov Moscow State University
+      location: Moscow, Russia
+      url: https://www.msu.ru/
+      area: Computer Science, NLP
+      grade: With Honors
+      studyType: BSc in Computer Science
+      start_date: 2018
+      end_date: 2022
+      highlights:
+      - 'Thesis: A Study of Methods for Automatic Nested Named Entity Recognition'
+      - 'Advisor: Natalia Loukachevitch'
+    - institution: Lomonosov Moscow State University
+      location: Moscow, Russia
+      url: https://www.msu.ru/
+      area: Computer Science, NLP
+      grade: With Honors
+      studyType: MSc in Computer Science
+      start_date: 2022
+      end_date: 2024
+      highlights:
+      - 'Thesis: Recognizing nested entities based on flat annotation'
+      - 'Advisor: Natalia Loukachevitch'
+    - institution: Lomonosov Moscow State University
+      location: Moscow, Russia
+      url: https://www.msu.ru/
+      area: Computer Science, NLP
+      studyType: PhD in Computer Science
+      start_date: 2024
+      end_date: present
+      highlights:
+      - 'Thesis: Methods for Nested Named Entity Recognition'
+      - 'Advisor: Natalia Loukachevitch'
+    Publications:
+    - title: Methods for Recognizing Nested Terms
+      authors:
+      - '***Igor Rozhkov***'
+      - Natalia Loukachevitch
+      date: 2025-05
+      doi: 10.48550/arXiv.2504.16007
+    - title: Domain-Specific Named Entity Extraction from a Heterogeneous Input Stream
+      authors:
+      - N. V. Loukachevitch
+      - '***I. S. Rozhkov***'
+      - B. V. Dobrov
+      journal: 'Programming and Computational Mathematics: Proceedings of the Conference Dedicated to the 100th Anniversary
+        of N. P. Trifonov'
+      date: '2025'
+    - title: 'NEREL: A Russian Information Extraction Dataset with Rich Annotation for Nested Entities, Relations, and Wikidata
+        Entity Links'
+      authors:
+      - Natalia Loukachevitch
+      - Ekaterina Artemova
+      - Tatiana Batura
+      - Pavel Braslavski
+      - Vladimir Ivanov
+      - Suresh Manandhar
+      - Alexander Pugachev
+      - '***Igor Rozhkov***'
+      - Artem Shelmanov
+      - Elena Tutubalina
+      - Alexey Yandutov
+      journal: Language Resources and Evaluation
+      date: 2024-06
+      doi: 10.1007/s10579-023-09674-z
+    - title: Pre-trained Language Models for Nested Named Entity Recognition
+      authors:
+      - N. V. Loukachevitch
+      - '***I. S. Rozhkov***'
+      journal: 'Lomonosov Readings 2024: Scientific Conference, Faculty of CMC, Lomonosov Moscow State University. Abstracts'
+      date: '2024'
+    - title: Machine Reading Comprehension Model in Domain-Transfer Task
+      authors:
+      - '***I. S. Rozhkov***'
+      - N. V. Loukachevitch
+      journal: Lobachevskii Journal of Mathematics
+      date: 2023-08
+      doi: 10.1134/S1995080223080504
+    - title: Prompts in Few-Shot Named Entity Recognition
+      authors:
+      - '***I. S. Rozhkov***'
+      - N. V. Loukachevitch
+      journal: Pattern Recognition and Image Analysis
+      date: 2023-06
+      doi: 10.1134/S1054661823020104
+    - title: 'NEREL-BIO: A Dataset of Biomedical Abstracts Annotated with Nested Named Entities'
+      authors:
+      - Natalia Loukachevitch
+      - Suresh Manandhar
+      - Elina Baral
+      - '***Igor Rozhkov***'
+      - Pavel Braslavski
+      - Vladimir Ivanov
+      - Tatiana Batura
+      - Elena Tutubalina
+      journal: Bioinformatics
+      date: '2023'
+    - title: 'RuNNE-2022 Shared Task: Recognizing Nested Named Entities'
+      authors:
+      - Ekaterina Artemova
+      - Maxim Zmeev
+      - Natalia Loukachevitch
+      - '***Igor Rozhkov***'
+      - Tatiana Batura
+      - Vladimir Ivanov
+      - Elena Tutubalina
+      journal: COMPUTATIONAL LINGUISTICS AND INTELLECTUAL TECHNOLOGIES
+      date: 2022-06
+      doi: 10.28995/2075-7182-2022-21-33-41
+    - title: Machine Reading Comprehension Model in RuNNE Competition
+      authors:
+      - '***Igor Rozhkov***'
+      - Natalia Loukachevitch
+      journal: Computational Linguistics and Intellectual Technologies
+      date: 2022-06
+      doi: 10.28995/2075-7182-2022-21-488-496
     Conference Presentations:
-      - name: Dialogue Evaluation 2022
-        date: 2022
-        highlights:
-          - Machine Reading Comprehension Model in RuNNE Competition (oral)
-      - name: Huawei workshop 'ML/AI/NLP for search-engine performance improvement'
-        date: 2022
-        highlights:
-          - Prompts in few-shot and cross-domain tasks of nested named entity recognition
-      - name: Lomonosov Readings 2024, Section of Computational Mathematics and Cybernetics
-        date: 2024
-        highlights:
-          - Pre-trained Language Models for Nested Named Entity Recognition (oral)
-      - name: Conference 'Programming and Computational Mathematics' Dedicated to the 100th Anniversary of N. P. Trifonov
-        date: 2025
-        highlights:
-          - Domain-Specific Named Entity Extraction from a Heterogeneous Input Stream (oral)
+    - name: Dialogue Evaluation 2022
+      date: 2022
+      highlights:
+      - Machine Reading Comprehension Model in RuNNE Competition (oral)
+    - name: Huawei workshop 'ML/AI/NLP for search-engine performance improvement'
+      date: 2022
+      highlights:
+      - Prompts in few-shot and cross-domain tasks of nested named entity recognition
+    - name: Lomonosov Readings 2024, Section of Computational Mathematics and Cybernetics
+      date: 2024
+      highlights:
+      - Pre-trained Language Models for Nested Named Entity Recognition (oral)
+    - name: Conference 'Programming and Computational Mathematics' Dedicated to the 100th Anniversary of N. P. Trifonov
+      date: 2025
+      highlights:
+      - Domain-Specific Named Entity Extraction from a Heterogeneous Input Stream (oral)
     Experience:
-      - company: Research Computing Center of Lomonosov Moscow State University
-        position: Researcher
-        location: Moscow, Russia
-        start_date: 2022
-        end_date: present
-      - company: Ivannikov Institute for System Programming of the Russian Academy of Sciences
-        position: Research Intern
-        location: Moscow, Russia
-        start_date: 2024
-        end_date: present
+    - company: Research Computing Center of Lomonosov Moscow State University
+      position: Researcher
+      location: Moscow, Russia
+      start_date: 2022
+      end_date: present
+    - company: Ivannikov Institute for System Programming of the Russian Academy of Sciences
+      position: Research Intern
+      location: Moscow, Russia
+      start_date: 2024
+      end_date: present
     Teaching Assistance:
-      - name: Methods and Tools of Information Retrieval
-        date: 2024
-      - name: Methods and Tools of Information Retrieval
-        date: 2025
-      - name: Departmental Practicum
-        date: 2025
+    - name: Methods and Tools of Information Retrieval
+      date: 2024
+    - name: Methods and Tools of Information Retrieval
+      date: 2025
+    - name: Departmental Practicum
+      date: 2025
     Professional Service:
-      - name: RuNNE-2022 baseline organization
-        date: 2022
-      - name: BioNNE-R Shared Task competition at CLEF 2026 BioASQ
-        date: 2026
+    - name: RuNNE-2022 baseline organization
+      date: 2022
+    - name: BioNNE-R Shared Task competition at CLEF 2026 BioASQ
+      date: 2026
     Awards:
-      - name: Lomonosov Moscow State University Scholarship for Young Researchers, Graduate Students, and Students with Outstanding
-          Achievements in Teaching and Research
-        date: 2024
+    - name: Lomonosov Moscow State University Scholarship for Young Researchers, Graduate Students, and Students with Outstanding
+        Achievements in Teaching and Research
+      date: 2024
     Skills:
-      - label: Technical Skills
-        details: "Python, PyTorch, HuggingFace Transformers, Docker"
+    - label: Technical Skills
+      details: Python, PyTorch, HuggingFace Transformers, Docker
     Languages:
-      - label: English
-        details: C1
-      - label: Russian / Русский
-        details: Native
-      - label: Japanese / 日本語
-        details: B1 level / JLPT N4
+    - label: English
+      details: C1
+    - label: Russian / Русский
+      details: Native
+    - label: Japanese / 日本語
+      details: B1 level / JLPT N4
