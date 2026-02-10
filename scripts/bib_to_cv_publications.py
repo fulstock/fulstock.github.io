@@ -299,15 +299,15 @@ def main() -> None:
         sys.exit(1)
     sections = cv_data["cv"].setdefault("sections", {})
 
-    # Remove old Publications if present, then insert after Education
+    # Remove old Publications if present, then insert before Education
     sections.pop("Publications", None)
     new_sections: dict = {}
     inserted = False
     for key, value in sections.items():
-        new_sections[key] = value
         if key == "Education" and not inserted:
             new_sections["Publications"] = publications
             inserted = True
+        new_sections[key] = value
     if not inserted:
         new_sections["Publications"] = publications
     cv_data["cv"]["sections"] = new_sections
