@@ -312,6 +312,15 @@ def main() -> None:
         new_sections["Publications"] = publications
     cv_data["cv"]["sections"] = new_sections
 
+    # Strip fields that Jekyll templates use but RenderCV rejects
+    RENDERCV_VALID_CV_KEYS = {
+        "name", "headline", "location", "email", "phone",
+        "website", "photo", "social_networks", "custom_connections", "sections",
+    }
+    for key in list(cv_data["cv"].keys()):
+        if key not in RENDERCV_VALID_CV_KEYS:
+            del cv_data["cv"][key]
+
     # Write back
     CV_PATH.write_text(
         yaml.dump(cv_data, default_flow_style=False, allow_unicode=True, sort_keys=False, width=120),
