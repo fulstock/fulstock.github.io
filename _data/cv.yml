@@ -86,13 +86,6 @@ cv:
         end_date: present
         highlights:
           - "Research on nested NER and RE methods, biomedical NLP, dataset development, shared task organization"
-      - company: Ivannikov Institute for System Programming of the Russian Academy of Sciences
-        position: Research Intern
-        location: Moscow, Russia
-        start_date: 2024
-        end_date: present
-        highlights:
-          - "Research on LLM evaluation in domain-specific settings; hallucination detection using information retrieval methods"
     Teaching Assistantship:
       - name: Methods and Tools of Information Retrieval
         date: 2024
