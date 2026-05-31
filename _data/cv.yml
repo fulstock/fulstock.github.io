@@ -78,6 +78,10 @@ cv:
         date: 2025
         highlights:
           - Domain-Specific Named Entity Extraction from a Heterogeneous Input Stream (oral)
+      - name: "EACL 2026, Student Research Workshop (Rabat)"
+        date: 2026
+        highlights:
+          - Learning Nested Named Entity Recognition from Flat Annotations (poster)
     Experience:
       - company: Research Computing Center of Lomonosov Moscow State University
         position: Researcher
@@ -85,12 +89,12 @@ cv:
         start_date: 2022
         end_date: present
         highlights:
-          - "Research on nested NER and RE methods, biomedical NLP, dataset development, shared task organization"
+          - "Developed nested NER and relation extraction methods; contributed to NEREL and NEREL-BIO dataset annotation and release"
+          - "Co-organized the BioNNE-R Shared Task at CLEF 2026 BioASQ — biomedical relation extraction over nested named entities, with international participation"
+          - "Applied domain and language adaptation techniques for information extraction in biomedical and low-resource settings"
     Teaching Assistantship:
       - name: Methods and Tools of Information Retrieval
-        date: 2024
-      - name: Methods and Tools of Information Retrieval
-        date: 2025
+        date: "2024, 2025"
       - name: Departmental Practicum
         date: 2025
     Professional Service:
@@ -102,8 +106,12 @@ cv:
       - name: "Lomonosov Moscow State University Scholarship for Young Researchers, Graduate Students, and Students with Outstanding Achievements in Teaching and Research"
         date: 2024
     Skills:
-      - label: Technical Skills
-        details: "Python, PyTorch, HuggingFace Transformers, Docker"
+      - label: Programming
+        details: "Python, PyTorch, Hugging Face Transformers"
+      - label: Methods
+        details: "Nested NER, Relation Extraction, Information Extraction, Few-shot Learning, LLM Prompting"
+      - label: Tools
+        details: "Git, LaTeX, Linux, Docker"
     Languages:
       - label: English
         details: C1
