@@ -93,7 +93,7 @@ cv:
         start_date: 2022
         end_date: present
         highlights:
-          - "Developed nested NER and relation extraction methods; contributed to NEREL and NEREL-BIO dataset annotation and release"
+          - "Developed nested NER and relation extraction methods; ran experiments for the NEREL and NEREL-BIO dataset papers"
           - "Co-organized the BioNNE-R Shared Task at CLEF 2026 BioASQ — biomedical relation extraction over nested named entities, with international participation"
           - "Applied domain and language adaptation techniques for information extraction in biomedical and low-resource settings"
     Projects:
@@ -106,8 +106,6 @@ cv:
         url: https://github.com/nerel-ds/NEREL-BIO
         date: 2023
         summary: "Dataset of biomedical abstracts annotated with nested named entities"
-        highlights:
-          - "Contributed to annotation and dataset release"
       - name: "RuNNE-2022 Shared Task"
         url: https://github.com/dialogue-evaluation/RuNNE
         date: 2022
@@ -118,8 +116,6 @@ cv:
         url: https://github.com/nerel-ds/NEREL
         date: 2021–2024
         summary: "Russian information extraction dataset with nested named entities (29 types), relations, and Wikidata entity links"
-        highlights:
-          - "Contributed to annotation and dataset release"
     Teaching Assistantship:
       - name: Methods and Tools of Information Retrieval
         date: "2024, 2025"
