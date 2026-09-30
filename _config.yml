@@ -13,10 +13,9 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: # add your own keywords or leave empty
+keywords: natural language processing, nested named entity recognition, relation extraction, information extraction, biomedical NLP
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 📚 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://fulstock.github.io/ # the base hostname & protocol for your site
 baseurl: ""
@@ -68,9 +67,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: rich-preview.png
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://fulstock.github.io/assets/img/prof_pic.jpg # used verbatim, so must be an absolute URL
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -91,8 +90,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Igor Rozhkov # blog_name will be displayed in your blog page
+blog_description: notes on NLP and information extraction
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -121,7 +120,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -129,16 +128,10 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+#   - name: medium.com
+#     rss_url: https://medium.com/@your-handle/feed
+#     categories: [external-posts]
+#     tags: [medium]
 
 # -----------------------------------------------------------------------------
 # Newsletter

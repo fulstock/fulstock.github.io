@@ -27,6 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year PhD student at Laboratory for Information Resources Analysis, Research Computing Center of Lomonosov Moscow State University, advised by Natalia Loukachevitch. My research focuses on Nested Named Entity Recognition and Relation Extraction.
+I am a third-year PhD student at Laboratory for Information Resources Analysis, Research Computing Center of Lomonosov Moscow State University, advised by Natalia Loukachevitch. My research focuses on Nested Named Entity Recognition and Relation Extraction.
 
 I study how language models can be applied to complex information extraction tasks, particularly recognizing nested entity mentions. I am also interested in domain and language adaptation, large language models for information extraction, knowledge graphs, low-resource and few-shot NER, and biomedical NLP.

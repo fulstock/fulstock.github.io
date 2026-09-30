@@ -82,6 +82,10 @@ cv:
         date: 2026
         highlights:
           - Learning Nested Named Entity Recognition from Flat Annotations (poster)
+      - name: "CLEF 2026, BioASQ Lab (online)"
+        date: 2026
+        highlights:
+          - Overview of the BioASQ BioNNE-R Task on Nested Biomedical Relation Extraction
     Experience:
       - company: Research Computing Center of Lomonosov Moscow State University
         position: Researcher
@@ -92,6 +96,30 @@ cv:
           - "Developed nested NER and relation extraction methods; contributed to NEREL and NEREL-BIO dataset annotation and release"
           - "Co-organized the BioNNE-R Shared Task at CLEF 2026 BioASQ — biomedical relation extraction over nested named entities, with international participation"
           - "Applied domain and language adaptation techniques for information extraction in biomedical and low-resource settings"
+    Projects:
+      - name: "BioNNE-R: Nested Biomedical Relation Extraction (BioASQ, CLEF 2026)"
+        date: 2026
+        summary: "Shared task on relation extraction over nested biomedical named entities"
+        highlights:
+          - "Co-organizer; presented the task overview at CLEF 2026"
+      - name: "NEREL-BIO"
+        url: https://github.com/nerel-ds/NEREL-BIO
+        date: 2023
+        summary: "Dataset of biomedical abstracts annotated with nested named entities"
+        highlights:
+          - "Contributed to annotation and dataset release"
+      - name: "RuNNE-2022 Shared Task"
+        url: https://github.com/dialogue-evaluation/RuNNE
+        date: 2022
+        summary: "Shared task on Russian nested named entity recognition at Dialogue Evaluation 2022 (156 submissions from nine teams)"
+        highlights:
+          - "Developed the baseline system"
+      - name: "NEREL"
+        url: https://github.com/nerel-ds/NEREL
+        date: 2021–2024
+        summary: "Russian information extraction dataset with nested named entities (29 types), relations, and Wikidata entity links"
+        highlights:
+          - "Contributed to annotation and dataset release"
     Teaching Assistantship:
       - name: Methods and Tools of Information Retrieval
         date: "2024, 2025"
@@ -100,7 +128,7 @@ cv:
     Professional Service:
       - name: "Developed baseline system for RuNNE-2022 Shared Task"
         date: 2022
-      - name: BioNNE-R Shared Task competition at CLEF 2026 BioASQ
+      - name: "Co-organizer, BioNNE-R Shared Task (nested biomedical relation extraction), BioASQ Lab at CLEF 2026"
         date: 2026
     Awards:
       - name: "Lomonosov Moscow State University Scholarship for Young Researchers, Graduate Students, and Students with Outstanding Achievements in Teaching and Research"

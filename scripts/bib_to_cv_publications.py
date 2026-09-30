@@ -80,6 +80,10 @@ def _parse_author_list(raw: str) -> list[str]:
         part = part.strip()
         if not part:
             continue
+        # BibTeX's truncated author list marker
+        if part.lower() == "others":
+            names.append("et al.")
+            continue
         # Heuristic: skip if the part contains two or more commas (institutional)
         if part.count(",") >= 2:
             continue
