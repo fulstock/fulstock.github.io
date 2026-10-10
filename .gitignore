@@ -9,7 +9,8 @@ _site
 .tweet-cache
 .venv
 assets/libs/
-assets/rendercv/rendercv_output/*.typ
+# Rendered in CI by deploy.yml; never committed
+assets/rendercv/rendercv_output/
 Gemfile.lock
 node_modules/
 vendor
