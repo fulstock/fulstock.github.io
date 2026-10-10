@@ -101,7 +101,7 @@ cv:
         date: 2026
         summary: "Shared task on relation extraction over nested biomedical named entities"
         highlights:
-          - "Co-organizer; presented the task overview at CLEF 2026"
+          - "Co-organizer; first author of the task overview paper (CEUR Workshop Proceedings, Vol. 4283), presented at CLEF 2026"
       - name: "NEREL-BIO"
         url: https://github.com/nerel-ds/NEREL-BIO
         date: 2023

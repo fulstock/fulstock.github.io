@@ -198,6 +198,30 @@
     ISBN = "979-8-89176-383-8",
     abstract = "Nested named entity recognition identifies entities contained within other entities, but requires expensive multi-level annotation. While flat NER corpora exist abundantly, nested resources remain scarce. We investigate whether models can learn nested structure from flat annotations alone, evaluating four approaches: string inclusions (substring matching), entity corruption (pseudo-nested data), flat neutralization (reducing false negative signal), and a hybrid fine-tuned + LLM pipeline. On NEREL, a Russian benchmark with 29 entity types where 21{\%} of entities are nested, our best combined method achieves 26.37{\%} inner F1, closing 40{\%} of the gap to full nested supervision. Code is available at https://github.com/fulstock/Learning-from-Flat-Annotations."
 }
+
+@inproceedings{rozhkov2026bionner,
+  selected = {true},
+  abbr = {CLEF},
+  pdf = {https://ceur-ws.org/Vol-4283/paper3.pdf},
+  html = {https://ceur-ws.org/Vol-4283/},
+  code = {https://github.com/nerel-ds/NEREL-BIO/tree/master/BioNNE-R},
+  google_scholar_id = {_FxGoFyzp5QC},
+  title = {Overview of the {{BioASQ BioNNE-R}} Task on Nested Biomedical Relation Extraction at {{CLEF}} 2026},
+  author = {Rozhkov, Igor and Loukachevitch, Natalia and Tutubalina, Elena},
+  editor = {Sánchez Salido, Eva and Barrón-Cedeño, Alberto and García Seco de Herrera, Alba and MacAvaney, Sean and Struß, Julia Maria},
+  booktitle = {Working Notes of the Conference and Labs of the Evaluation Forum ({{CLEF}} 2026)},
+  series = {CEUR Workshop Proceedings},
+  volume = {4283},
+  pages = {65--74},
+  year = {2026},
+  month = oct,
+  address = {Jena, Germany},
+  publisher = {CEUR-WS.org},
+  issn = {1613-0073},
+  url = {https://ceur-ws.org/Vol-4283/paper3.pdf},
+  abstract = {Biomedical relation extraction is typically studied under flat named entities, keeping only relations that involve nested named entities, where one entity is contained within another, unexplored. This paper presents an overview of the BioNNE-R shared task on biomedical nested relation extraction, organized within the BioASQ 2026 workshop at CLEF. Building on the NEREL-BIO corpus and the earlier BioNNE and BioNNE-L shared tasks, BioNNE-R requires systems to extract semantic relations between nested biomedical entities in English and Russian PubMed abstracts. The task covers 8 entity types and 14 relation types and is organized into three subtasks under two evaluation tracks: a monolingual track, with separate English and Russian subtasks, and a bilingual track combining both languages. We received 20 Codabench registrations, and 7 teams submitted predictions during the evaluation phase. Most participating systems framed the task as pair classification with fine-tuned multilingual and biomedical transformer encoders; the best systems reached macro-F1 scores of approximately 0.50-0.53, substantially above the baseline given, with a document-level graph-based approach achieving the top results on the Russian and bilingual subtasks. These results indicate that relation extraction over nested biomedical entities remains a challenging problem with considerable room for improvement.},
+  keywords = {BioNLP, Biomedical NLP, Relation Extraction, Nested Entities, Multilingual}
+}
 @InProceedings{10.1007/978-3-032-21321-1_42,
 selected = {true},
 abbr = {ECIR},
